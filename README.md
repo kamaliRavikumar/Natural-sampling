@@ -1,19 +1,15 @@
-EXP 2: Natural-Sampling
+# Exp:2 Natural Sampling
 
-##Aim
-```
-To demonstrate the process of natural sampling, where a continuous message signal is modulated
-using a pulse train and then reconstructed to recover the original signal.
-```
-###Tools required 
-```
-. Python
-. NumPy
-. Matplotlib
-. SciPy
-```
+## Aim
+To demonstrate the process of natural sampling, where a continuous message signal is modulated using a pulse train and then reconstructed to recover the original signal.
 
-###Program 
+## Tools Required
+- Python
+- NumPy
+- Matplotlib
+- SciPy
+
+## Program
 ```
 #Natural sampling
 import numpy as np
@@ -75,16 +71,12 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 ```
-###Output Waveform 
+## Output
+![Screenshot 2025-03-26 093433](https://github.com/user-attachments/assets/2be813ed-0488-4481-ad6b-c2ac07ff22f5)
 
-![Screenshot 2025-03-26 093433](https://github.com/user-attachments/assets/67c95471-261a-46e0-9efa-7d5542eb8ecf)
+## Result
+- The original continuous message signal was successfully modulated using a pulse train.
+- The natural sampling process was performed, multiplying the message signal with a pulse train.
+- The sampled points were interpolated using a Zero-Order Hold technique.
+- A low-pass filter was applied for smoother reconstruction, closely approximating the original message signal.
 
-
-###Results
-```
-. The original continuous message signal was successfully modulated using a pulse train.
-.The natural sampling process was performed, multiplying the message signal with a pulse train.
-.The sampled points were interpolated using a Zero-Order Hold technique.
-.A low-pass filter was applied for smoother reconstruction, closely approximating the original
-message signal.
-```
