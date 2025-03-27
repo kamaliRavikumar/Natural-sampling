@@ -1,16 +1,18 @@
 EXP 2: Natural-Sampling
-Aim
-
+##Aim
+```
 To demonstrate the process of natural sampling, where a continuous message signal is modulated
 using a pulse train and then reconstructed to recover the original signal.
-
-Tools required 
+```
+###Tools required 
+```
 . Python
 . NumPy
 . Matplotlib
 . SciPy
-
-Program 
+```
+###Program 
+```
 #Natural sampling
 import numpy as np
 import matplotlib.pyplot as plt
@@ -70,10 +72,12 @@ plt.legend()
 plt.grid(True)
 plt.tight_layout()
 plt.show()
-Output Waveform 
+```
+###Output Waveform 
+
 https://github.com/user-attachments/assets/2222b809-c47f-4d1b-be4f-5cc15ec043fc
 
-Results
+###Results
 . The original continuous message signal was successfully modulated using a pulse train.
 .The natural sampling process was performed, multiplying the message signal with a pulse train.
 .The sampled points were interpolated using a Zero-Order Hold technique.
