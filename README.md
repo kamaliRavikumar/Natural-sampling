@@ -75,11 +75,14 @@ plt.show()
 ```
 ###Output Waveform 
 
-https://github.com/user-attachments/assets/2222b809-c47f-4d1b-be4f-5cc15ec043fc
+![Screenshot 2025-03-26 093433](https://github.com/user-attachments/assets/67c95471-261a-46e0-9efa-7d5542eb8ecf)
+
 
 ###Results
+```
 . The original continuous message signal was successfully modulated using a pulse train.
 .The natural sampling process was performed, multiplying the message signal with a pulse train.
 .The sampled points were interpolated using a Zero-Order Hold technique.
 .A low-pass filter was applied for smoother reconstruction, closely approximating the original
 message signal.
+```
