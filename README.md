@@ -71,7 +71,7 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 Output Waveform 
-(https://github.com/user-attachments/assets/2222b809-c47f-4d1b-be4f-5cc15ec043fc)
+https://github.com/user-attachments/assets/2222b809-c47f-4d1b-be4f-5cc15ec043fc
 
 Results
 . The original continuous message signal was successfully modulated using a pulse train.
