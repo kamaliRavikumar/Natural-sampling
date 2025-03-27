@@ -1,4 +1,5 @@
 EXP 2: Natural-Sampling
+
 ##Aim
 ```
 To demonstrate the process of natural sampling, where a continuous message signal is modulated
@@ -11,6 +12,7 @@ using a pulse train and then reconstructed to recover the original signal.
 . Matplotlib
 . SciPy
 ```
+
 ###Program 
 ```
 #Natural sampling
